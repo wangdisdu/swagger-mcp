@@ -22,6 +22,12 @@ pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 ## 3.启动
 
+修改配置文件.env，设置SWAGGER_URLS为Swagger API地址
+```
+SWAGGER_URLS=http://localhost:8080/v3/api-docs
+```
+
+启动服务
 ```
 ./start.sh
 ```
